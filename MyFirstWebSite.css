@@ -1,0 +1,96 @@
+/*nav bar */
+.nav{
+    height:80px;
+    /*border:1px solid red;*//*needs to remove*/
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin-right:5% ;
+    margin-top: 2% ;
+   
+}
+ul li{
+    float:left;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 21px;
+    padding:25px;
+}
+
+/*introduction*/
+.introduction{
+    height: 400px;
+    width: 30%;
+    margin-left: 10%;
+    /*border:1px solid red; /*needs to remove*/
+    float: left;
+}
+.introduction p{
+    
+    font-size: 45px;
+    font-family: cursive;
+    margin-top:5%;
+    margin-left: 5%;
+    padding: 0%;
+}
+.introduction h3{
+    
+   
+    margin-left: 5%;
+    font-family: serif;
+    margin-bottom: 8%;
+    
+}
+.introduction a{
+    border:7px solid coral;
+    background-color: coral;
+    color:white;
+    margin-top:15%;
+    margin-left: 5%;
+    padding:5px;
+    text-decoration: none;
+    
+    
+}
+.introduction img{
+    width:100%;
+    height:400px
+    float: left;
+}
+
+/*about section*/
+.about{
+    height: 400px;
+    width: 30%;
+    
+   /* border:1px solid red; /*needs to remove*/
+    float: left;
+    padding:5%;
+    margin: 5%;
+
+}
+.about img{
+    width:100%;
+    height:450px
+    
+    
+}
+.about h1{
+    color:darksalmon;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.about h3{
+    color:indigo;
+    font-weight:lighter;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+}
