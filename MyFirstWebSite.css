@@ -1,3 +1,7 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
 /*nav bar */
 .nav{
     height:80px;
@@ -85,7 +89,7 @@ ul li a{
     color:darksalmon;
     font-weight: bold;
     font-size: 40px;
-    font-family: cursive;
+    font-family:;
     
 }
 .about h3{
