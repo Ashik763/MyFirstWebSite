@@ -42,7 +42,7 @@ ul li a{
     
    
     margin-left: 5%;
-    font-family: serif;
+    font-family:cursive;
     margin-bottom: 8%;
     
 }
@@ -85,7 +85,7 @@ ul li a{
     color:darksalmon;
     font-weight: bold;
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
     
 }
 .about h3{
@@ -110,7 +110,7 @@ ul li a{
 }
 /*latest working project*/
 .latest{ /*need to remove*/
-    height:600px;
+    height:auto;
     width: 100%;
 
 
@@ -130,13 +130,32 @@ ul li a{
     text-align:center;
     margin-top: 50%;
 }
-.latestworkingproject img{
+.latestworkingproject div{
     width: 30%;
-    height: 380px;
+    height: 520px;
     float: left;
     margin-top:4% ;
     margin-left:2%;
     box-shadow:10px 10px 5px #aaaaaa;
+    border-radius: 5%;
+    
+    
+}
+.latestworkingproject div h3{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight:300;
+    
+
+}
+
+.latestworkingproject img{
+    width: 96%;
+    height: 380px;
+    float: left;
+    margin-top:4% ;
+    margin-left:2%;
+   /* box-shadow:10px 10px 5px #aaaaaa;*/
     border-radius: 5%;
     
 }
@@ -154,4 +173,46 @@ ul li a{
     margin-left: 17%;
 
 }
+.chat{
+    margin-top: -7%;
+}
 
+.chat a{
+    margin-left:60%;
+    
+    color:white;
+    background-color:dodgerblue;
+    border:7px solid dodgerblue;
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+    float:inherit;
+
+
+
+}
+.contact{
+    margin-left: 5%;
+    margin-top:60%;
+    color: lightseagreen;
+}
+.social-site{
+    margin-left: 25%;
+    
+
+}
+.social-site a{
+
+margin-left: 7%;
+}
+.social-site a img{
+    height: 25px;
+    width:25px;
+   
+   }
+
+.social-site h3{
+    color:dimgray;
+    font-size: 50px;
+
+}
