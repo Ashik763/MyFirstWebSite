@@ -64,6 +64,7 @@ ul li a{
 }
 
 /*about section*/
+
 .about{
     height: 400px;
     width: 30%;
@@ -92,5 +93,65 @@ ul li a{
     font-weight:lighter;
     
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom:10%;
     
 }
+.about a{
+    background-color: orangered;
+    padding:10px;
+    border:7px solid orangered;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    margin-top:5%;
+
+   
+
+}
+/*latest working project*/
+.latest{ /*need to remove*/
+    height:600px;
+    width: 100%;
+
+
+
+}
+.latestworkingproject {
+    width: 92%;
+    height: 500px;
+    
+    margin-left:8%;
+    
+}
+.latestworkingproject h1{
+    text-align: center;
+    font-family:cursive;
+    font-size: 40px;
+    text-align:center;
+    margin-top: 50%;
+}
+.latestworkingproject img{
+    width: 30%;
+    height: 380px;
+    float: left;
+    margin-top:4% ;
+    margin-left:2%;
+    box-shadow:10px 10px 5px #aaaaaa;
+    border-radius: 5%;
+    
+}
+
+.bottom-pic{
+    position: absolute;
+  text-align: left;
+  color: white;
+}
+.bottom-pic img{
+    height: 200px;
+    width:60%;
+    
+    margin-top: 40%;
+    margin-left: 17%;
+
+}
+
